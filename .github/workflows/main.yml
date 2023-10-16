@@ -63,21 +63,18 @@ jobs:
       - name: Create SSH key files
         run: |
           mkdir ~/.ssh -p
-          echo "" > ~/.ssh/known_hosts
+          echo "" >> ~/.ssh/known_hosts
           echo "${{ secrets.SSH_KEY }}" > key && chmod 600 key
           ssh-keygen -R meister.ne.jp
           ssh-keygen -y -f key > key.pub && chmod 644 key.pub
-          ssh-keyscan -H meister.ne.jp > ~/.ssh/known_hosts
+          ssh-keyscan -H meister.ne.jp >> ~/.ssh/known_hosts
       - name: Upload to Meister Online
         run: |
           hugo \
             --minify \
             --baseURL "https://meister.ne.jp" -d meister
           cat ~/.ssh/known_hosts
-          scp -i key -r ./meister/* $FTP_USERNAME@$FTP_SERVER:~/www
-        env:
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          scp -i key -r ./meister/* ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:~/www/
 
   # Deployment job
   deploy:
