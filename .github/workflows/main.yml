@@ -62,10 +62,9 @@ jobs:
           path: ./public
       - name: Create SSH key files
         run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > key && chmod 600 key
+          echo "${{ secrets.SSH_KEY }}" > key && chmod 600 key
           ssh-keygen -R meister.ne.jp
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-key-scan -H meister.ne.jp >> ~/.ssh/known_hosts
       - name: Upload to Meister Online
         run: |
           hugo \
@@ -74,7 +73,6 @@ jobs:
           ssh-keygen -R meister.ne.jp
           scp -i key -r ./meister/* $FTP_USERNAME@$FTP_SERVER:~/www
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
 
