@@ -56,22 +56,28 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-          hugo \
-            --minify \
-            --baseURL "https://meister.ne.jp" -d meister \
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
-      - name: Install SSH key
-        uses: shimataro/ssh-key-action@v2.6.1
-        with: # shimataro/ssh-key-actionに渡すパラメーター
-          key: ${{ secrets.SSH_KEY }} # 必須
-          name: id_rsa # 省略可
-          known_hosts: ${{ secrets.KNOWN_HOSTS }} # 必須
-      - name: run deploy script
+      - name: Create SSH key files
         run: |
-          scp -r meister/* ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:~/www
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > key && chmod 600 key
+          ssh-keygen -R meister.ne.jp
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Upload to Meister Online
+        run: |
+          hugo \
+            --minify \
+            --baseURL "https://meister.ne.jp" -d meister
+          ssh-keygen -R meister.ne.jp
+          scp -i key -r ./meister/* $FTP_USERNAME@$FTP_SERVER:~/www
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+
   # Deployment job
   deploy:
     environment:
