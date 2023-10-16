@@ -73,6 +73,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "https://meister.ne.jp" -d meister
+          cat ~/.ssh/known_hosts
           scp -i key -r ./meister/* $FTP_USERNAME@$FTP_SERVER:~/www
         env:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
