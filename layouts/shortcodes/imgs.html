@@ -1,0 +1,15 @@
+<div class="carousel slide" data-bs-ride="carousel">
+    {{ $isFirst := true }}
+    <div class="carousel-inner">
+        {{ range .Params }}
+        <div class="carousel-item {{ if $isFirst }}active{{ end }}">
+            <img src="{{.}}" class="d-block w-10" style="
+            width: auto;
+            height: 200px;
+            display: block;
+            background-size: cover;" alt="..."  data-bs-interval="1000">
+        </div>
+        {{ $isFirst = false }}
+        {{ end }}
+    </div>
+</div>

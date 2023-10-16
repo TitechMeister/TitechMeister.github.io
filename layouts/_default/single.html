@@ -1,0 +1,15 @@
+{{- define "main" -}}
+
+<h1>{{ .Title | markdownify }}</h1>
+<span class="text-secondary">{{ .Date.Format "2006-01-02" }}</span>
+
+{{partial "tags.html" .}}
+<div class="m-2">
+{{ .Content }}
+</div>
+<hr/>
+{{ partial "share.html" .}}
+<hr/>
+{{ partial "pager.html" .}}
+
+{{- end -}}
