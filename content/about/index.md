@@ -1,5 +1,5 @@
 ---
-title: About
+title: 団体情報
 date: 2023-10-15T10:22:32+09:00
 tags:
 categories: [その他]

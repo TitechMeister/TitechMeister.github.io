@@ -1,5 +1,5 @@
 ---
-title: Contact us
+title: お問い合わせ
 date: 2023-10-15T10:24:05+09:00
 tags:
 categories: [その他]

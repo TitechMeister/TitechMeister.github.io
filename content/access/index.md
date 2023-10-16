@@ -1,5 +1,5 @@
 ---
-title: Access
+title: アクセス
 date: 2023-10-15T11:24:59+09:00
 tags:
 categories: [その他]
