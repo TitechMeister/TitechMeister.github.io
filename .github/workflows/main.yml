@@ -63,6 +63,7 @@ jobs:
       - name: Create SSH key files
         run: |
           mkdir ~/.ssh -p
+          echo "" > ~/.ssh/known_hosts
           echo "${{ secrets.SSH_KEY }}" > key && chmod 600 key
           ssh-keygen -R meister.ne.jp
           ssh-keygen -y -f key > key.pub && chmod 644 key.pub
