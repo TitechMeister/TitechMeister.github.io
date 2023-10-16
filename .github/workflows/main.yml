@@ -62,8 +62,10 @@ jobs:
           path: ./public
       - name: Create SSH key files
         run: |
+          mkdir -p ~/.ssh
           echo "${{ secrets.SSH_KEY }}" > key && chmod 600 key
           ssh-keygen -R meister.ne.jp
+          ssh-keygen -y -f key > key.pub && chmod 644 key.pub
           ssh-key-scan -H meister.ne.jp >> ~/.ssh/known_hosts
       - name: Upload to Meister Online
         run: |
