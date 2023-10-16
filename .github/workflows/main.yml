@@ -73,7 +73,7 @@ jobs:
             --minify \
             --baseURL "https://meister.ne.jp" -d meister
           cat ~/.ssh/known_hosts
-          scp -i key -r ./meister/* ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:~/www/
+          scp  -o "StrictHostKeyChecking=no" -i key -r ./meister/* ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:~/www/
 
   # Deployment job
   deploy:
