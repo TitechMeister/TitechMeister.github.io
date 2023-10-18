@@ -30,13 +30,7 @@
 
     {{else if eq .Title (.Date.Format "2006-01") }}
     <h3>{{ .Date.Format "2006年01月"}}</h3>
-    <ul class="list-group">
-      {{- range (.Paginate $pages).Pages }}
-      <li class="list-group-item">
-        {{ partial "excerpt.html" . }}
-      </li>
-      {{- end }}
-    </ul>
+    {{ partial "pagination.html" . }}
     {{ else if eq (lower .Title) "tags" }}
     <!--Tags-->
     <h3><div class="bi bi-tags">Tags</div></h3>
