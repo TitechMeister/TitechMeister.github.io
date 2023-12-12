@@ -24,6 +24,13 @@ draft: false
 - Meister部員の企業,団体様訪問、交流
 - 企業紹介動画発信
 
+## ～東工大基金～
+
+ご寄付をしていただける場合は以下のリンクから「マイスター」を選択していただいたうえで寄付をよろしくお願いいたします。
+こちらは大学が管理している支援基金ページで個人の方は所得税法上の寄附金控除の対象となり、法人の場合は法人税法により全額損金算入となります。
+
+[https://titech.ac.jp/public-engagement/giving/projects/student-club](https://titech.ac.jp/public-engagement/giving/projects/student-club)
+
 　以下Meisterの連絡ツールとなります。アドバイスやご相談もお待ちしています。よろしくお願いいたします。
 
 Twitter <i class="bi-twitter"></i>：[@titech_meister](https://twitter.com/titech_meister)
