@@ -71,7 +71,17 @@ draft: false
 ### 学内駅伝(12/10)
 
 12/10に開催された学内駅伝に23,24,25代より五人で出場して優勝しました。過去2016年の代に出場した際の記録が残っていましたので、記念に写真を撮らせていただきました。
-（ここにtwitterから比較画像）
+
+<div class="row">
+    <div class="col">
+        <img class="row" src="fig/ekiden2017.png"></img>
+        <span class="row">2016年</span>
+    </div>
+    <div class="col">
+        <img class="row" src="fig/ekiden2024.png"></img>
+        <span class="row">2023年</span>
+    </div>
+</div>
 
 ### ひらめきときめきサイエンス (12/27,28)
 
