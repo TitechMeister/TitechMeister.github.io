@@ -371,7 +371,6 @@ Meisterでは23代より桁焼きの方法を過去の台と変えているた�
 2. プリント基板verの作成
  基板作成能力が微妙なため、最大5度ほどの誤差が確認されますので、基板設計が急がれます。 
 
-![Alt text](image.png)
 <div class="row">
     <div class="col">
         <img class="row" src="fig/logger-circuit.png"></img>
