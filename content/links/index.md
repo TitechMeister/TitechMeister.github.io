@@ -8,6 +8,8 @@ draft: false
 
 ## 連絡先
 
+メール： meister.tokyotech [at] gmail.com
+
 Twitter <i class="bi-twitter"></i>：[@titech_meister](https://twitter.com/titech_meister)
 
 Instagram <i class="bi-instagram"></i>：[@tokyotechmeister](https://instagram.com/tokyotechmeister)
