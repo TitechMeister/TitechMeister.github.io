@@ -71,7 +71,8 @@ Macを駆使して挑んだ人力飛行機の設計から飛行までの軌跡�
 ## 新入生の方へ
 　Meisterでは、来年度の部員を既に募集しています！
 まずは、新歓twitterを見てみてください！
-https://twitter.comMeister_welcome
+
+https://twitter.com/Meister_welcome
 
 # プロペラ班
 これまでの活動報告
