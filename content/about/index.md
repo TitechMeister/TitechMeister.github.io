@@ -6,7 +6,7 @@ categories: [その他]
 draft: false
 ---
 
-![](/img/top/top_spring.jpg)
+![](img/about.png)
 
 ## Meisterとは
 
