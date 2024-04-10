@@ -119,7 +119,7 @@ SNSや新歓のページに詳細が乗っていますので是非ご覧くだ�
 この度Honda Cars 南札幌様より応援をしていただけることになりました。
 Meister応援ページも作っていただき感謝してもしきれません。
 本当にありがとうございます。
-Honda Cars 南札幌様は本田技研工業の自動車販売におけるディーラー網でありカ最高のーライフを支えてくれています。
+Honda Cars 南札幌様は本田技研工業の自動車販売におけるディーラー網でありカ最高のカーライフを支えてくれています。
 こちらがMeister応援ページとなります。こちらからHonda Cars 南札幌様の情報もご確認できますので是非ご覧ください。
 
 <i class="bi bi-newspaper"></i> https://www.hondacars-minamisapporo.co.jp/campaign/topics-detail.html?shop=91&num=001108
