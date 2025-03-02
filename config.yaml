@@ -5,7 +5,8 @@ googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
-pagination.paperSize : 5
+pagination:
+  pagerSize: 5
 
 taxonomies:
   category : "categories"

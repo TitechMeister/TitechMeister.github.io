@@ -10,7 +10,7 @@
         </h5>
       </div>
     </div>
-    {{- $summary := truncate 160 .Summary }}
+    {{- $summary := truncate 100 .Summary }}
     {{- if .Params.summary }}
     {{- $summary = .Params.summary }}
     {{- else if .Params.abstract }}
