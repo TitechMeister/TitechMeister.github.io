@@ -5,8 +5,6 @@ archives:
     - 2025-09
     - 2025
 tags:
-    -26代
-    -全体
 categories: []
 draft: false
 ---
