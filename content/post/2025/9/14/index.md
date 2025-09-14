@@ -1,29 +1,29 @@
 ---
-title: 
+title:秋の交流会に参加しました！ 
 date: 2025-09-14T22:31:39+09:00
 archives:
     - 2025-09
     - 2025
 tags:
-- 26��
-- �S��
+- 26代
+- 全体
 categories: []
 draft: false
 ---
-## �H�̌𗬉�ɎQ�����܂����I
 
-����A�H�̑�w�𗬉�ɎQ�����Ă��܂����I
+先日、秋の大学交流会に参加してきました！
 
-���i�͊ւ�邱�Ƃ̂Ȃ�����w�̊w�������Ƙb���āA�{���Ɏh���I�Ȏ��Ԃł����B���ꂼ��̑�w�̓��F��A�����Ƃ͑S���Ⴄ���_�̈ӌ��𕷂��āA��C�Ɏ��삪�L�������C�����܂��B
+普段は関わることのない他大学の学生たちと話せて、本当に刺激的な時間でした。それぞれの大学の特色や、自分とは全く違う視点の意見を聞けて、一気に視野が広がった気がします。
 
-���̌o�����݂ɁA�܂���������撣�낤�Ǝv���܂��B�f���炵���@������肪�Ƃ��������܂����I
+この経験を励みに、また明日から頑張ろうと思います。素晴らしい機会をありがとうございました！
+
 <table>
   <tr>
-    <td><img src="2025091401.jpg" alt="�摜1" height="300"></td>
-    <td><img src="2025091404.jpg" alt="�摜2" height="300"></td>
+    <td><img src="2025091401.jpg" alt="画像1" height="300"></td>
+    <td><img src="2025091404.jpg" alt="画像2" height="300"></td>
   </tr>
   <tr>
-    <td><img src="2025091403.jpg" alt="�摜3" height="300"></td>
-    <td><img src="2025091402.jpg" alt="�摜4" height="300"></td>
+    <td><img src="2025091403.jpg" alt="画像3" height="300"></td>
+    <td><img src="2025091402.jpg" alt="画像4" height="300"></td>
   </tr>
 </table>
