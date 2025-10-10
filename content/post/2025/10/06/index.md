@@ -11,10 +11,8 @@ draft: false
 </div>
 
 <div class="content-box">
-  <img src="{{ "/photo-output.jpg" | relURL }}" alt="メインイラスト" class="main-illustration">
+  <img src="/photo-output.jpg" alt="メインイラスト" class="main-illustration">
   
   <h1>現在の飛行距離</h1>
-  
   <p class="distance-display">0m</p>
-  
 </div>
