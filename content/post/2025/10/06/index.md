@@ -14,7 +14,7 @@ draft: false
 </div>
 
 <div class="content-box">
-  <img src="photo-output.jpg" alt="メインイラスト" class="main-illustration">
+  <img src="/static/photo-output.jpg" alt="メインイラスト" class="main-illustration">
   
   <h1>現在の飛行距離</h1>
   <p>0m</p>
