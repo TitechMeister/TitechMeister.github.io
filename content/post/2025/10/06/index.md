@@ -5,8 +5,8 @@ archives:
     - 2025-10
     - 2025
 tags:
-    - 26‘ã
-    - ‘S‘Ì
+    - 26ä»£
+    - å…¨ä½“
 categories: []
 draft: false
 ---
@@ -15,42 +15,42 @@ draft: false
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>“Áİƒy[ƒW</title>
+  <title>ç‰¹è¨­ãƒšãƒ¼ã‚¸</title>
   <style>
-    /* ƒy[ƒW‚ÌŠî–{İ’è */
+    /* ãƒšãƒ¼ã‚¸ã®åŸºæœ¬è¨­å®š */
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden; /* ƒXƒNƒ[ƒ‹ƒo[‚ğ‰B‚· */
+      overflow: hidden; /* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ãƒãƒ¼ã‚’éš ã™ */
     }
 
-    /* ”wŒiGIF‚Ìİ’è */
+    /* èƒŒæ™¯GIFã®è¨­å®š */
     body {
       background-image: url('XFbw.gif');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       
-      /* ’†‰›”z’u‚Ì‚½‚ß‚Ìİ’è (Flexbox) */
+      /* ä¸­å¤®é…ç½®ã®ãŸã‚ã®è¨­å®š (Flexbox) */
       display: flex;
-      /* ¥¥¥ •ÏX“_1: —v‘f‚ğc‚É•À‚×‚é‚æ‚¤‚É•ÏX ¥¥¥ */
+      /* â–¼â–¼â–¼ å¤‰æ›´ç‚¹1: è¦ç´ ã‚’ç¸¦ã«ä¸¦ã¹ã‚‹ã‚ˆã†ã«å¤‰æ›´ â–¼â–¼â–¼ */
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
 
-    /* ã•”‚É’Ç‰Á‚·‚éˆê•¶‚ÌƒXƒ^ƒCƒ‹ */
+    /* ä¸Šéƒ¨ã«è¿½åŠ ã™ã‚‹ä¸€æ–‡ã®ã‚¹ã‚¿ã‚¤ãƒ« */
     .top-message {
-      /* ¥¥¥ •ÏX“_2: position:absolute‚ğíœ‚µAmargin‚ğ’Ç‰Á ¥¥¥ */
+      /* â–¼â–¼â–¼ å¤‰æ›´ç‚¹2: position:absoluteã‚’å‰Šé™¤ã—ã€marginã‚’è¿½åŠ  â–¼â–¼â–¼ */
       text-align: center;
       color: white;
       font-size: 24px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-      margin-bottom: 20px; /*‰º‚Ìƒ{ƒbƒNƒX‚Æ‚ÌŠÔ‚É—]”’‚ğ’Ç‰Á*/
+      margin-bottom: 20px; /*ä¸‹ã®ãƒœãƒƒã‚¯ã‚¹ã¨ã®é–“ã«ä½™ç™½ã‚’è¿½åŠ */
     }
 
-    /* ’†‰›‚ÌƒRƒ“ƒeƒ“ƒcƒGƒŠƒA‚Ìİ’è */
+    /* ä¸­å¤®ã®ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚¨ãƒªã‚¢ã®è¨­å®š */
     .content-box {
       background-color: rgba(255, 255, 255, 0.8);
       padding: 30px;
@@ -60,14 +60,14 @@ draft: false
       max-width: 80%;
     }
 
-    /* ƒCƒ‰ƒXƒg‰æ‘œ‚Ìİ’è */
+    /* ã‚¤ãƒ©ã‚¹ãƒˆç”»åƒã®è¨­å®š */
     .main-illustration {
       max-width: 100%;
       height: 400px;
       margin-bottom: 20px;
     }
 
-    /* ƒeƒLƒXƒg‚ÌƒXƒ^ƒCƒ‹ */
+    /* ãƒ†ã‚­ã‚¹ãƒˆã®ã‚¹ã‚¿ã‚¤ãƒ« */
     h1 {
       margin: 0;
       color: #333;
@@ -77,14 +77,14 @@ draft: false
 <body>
 
   <div class="top-message">
-    GIVINGCAMNPAIGN“ÁİƒTƒCƒg‚Å‚·B<br>
-    •[”‚É‰‚¶‚Ä”òs‹——£‚ªL‚Ñ‚é‚æI
+    GIVINGCAMNPAIGNç‰¹è¨­ã‚µã‚¤ãƒˆã§ã™ã€‚<br>
+    ç¥¨æ•°ã«å¿œã˜ã¦é£›è¡Œè·é›¢ãŒä¼¸ã³ã‚‹ã‚ˆï¼
   </div>
 
   <div class="content-box">
-    <img src="photo-output.jpg" alt="ƒƒCƒ“ƒCƒ‰ƒXƒg" class="main-illustration">
+    <img src="photo-output.jpg" alt="ãƒ¡ã‚¤ãƒ³ã‚¤ãƒ©ã‚¹ãƒˆ" class="main-illustration">
     
-    <h1>Œ»İ‚Ì”òs‹——£</h1>
+    <h1>ç¾åœ¨ã®é£›è¡Œè·é›¢</h1>
     <p>0m</p>
   </div>
 
