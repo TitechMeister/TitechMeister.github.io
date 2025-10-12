@@ -31,14 +31,14 @@ menu:
     - name: 支援
       url: "sponsor/"
       weight: 5
-    - name: お問い合わせ
+    - name: お問い合せ
       url: "links/"
       weight: 6
 
 params:
   social:
     twitter: "titech_meister"
-    instagram: "tokyotechmeister"
+    instagram: "sciencetokyomeister"
     github: "TitechMeister"
     youtube: "Meistermovie"
   description: "meister online"
