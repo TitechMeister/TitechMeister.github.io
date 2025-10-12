@@ -7,12 +7,12 @@ draft: false
 
 <div class="top-message">
   GIVINGCAMNPAIGN特設サイトです。<br>
-  票数に応じて飛行距離が伸びるよ！
+  票数×100[m]機体が飛ぶよ！
 </div>
 
 <div class="content-box">
   <img src="/photo-output.jpg" alt="メインイラスト" class="main-illustration">
   
   <h1>現在の飛行距離</h1>
-  <p class="distance-display">40600m</p>
+  <p class="distance-display">42600m</p>
 </div>
