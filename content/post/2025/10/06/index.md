@@ -14,5 +14,5 @@ draft: false
   <img src="/photo-output.jpg" alt="メインイラスト" class="main-illustration">
   
   <h1>現在の飛行距離</h1>
-  <p class="distance-display">42600m</p>
+  <p class="distance-display">51600m</p>
 </div>
